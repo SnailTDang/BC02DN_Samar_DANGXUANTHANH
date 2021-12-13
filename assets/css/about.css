@@ -1,0 +1,88 @@
+/* ABOUT */
+
+.about {
+    padding: 115px 0 85px 0;
+    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg15.png');
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.about-media {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.about-img {
+    margin: 60px 70px 60px 0;
+    position: relative;
+    width: 50vw;
+    float: right;
+}
+
+.about-img img {
+    float: right;
+    border-radius: 0 100px 100px 0;
+}
+
+.about-img::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 50vw;
+    height: 100%;
+    background: #fef2f6;
+    right: -20px;
+    transform: rotate(8deg);
+    z-index: -1;
+    border-radius: 0 100px 100px 0;
+}
+
+.about-content {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.about-header {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.about-header h2 {
+    margin-bottom: 20px;
+}
+
+.about-header p {
+    line-height: 25px;
+}
+
+.check-icon-about {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.check-icon-about i {
+    color: var(--primary);
+    font-size: 12px;
+}
+
+.about-content ul {
+    margin-bottom: 30px;
+}
+
+.about-content ul li {
+    display: flex;
+    padding: 10px 0;
+}
+
+.about-content ul li p {
+    padding-left: 10px;
+    display: inline-block;
+}

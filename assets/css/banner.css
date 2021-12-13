@@ -1,0 +1,128 @@
+/* BANNER */
+
+.banner {
+    background-image: url('https://samar.dexignzone.com/xhtml/images/main-slider/slider2/pic2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.banner-inner {
+    padding-top: 180px;
+}
+
+.content-layout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.banner-content {
+    flex: 0 0 58.3333333333%;
+    width: 58.3333333333%;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    color: var(--primary);
+}
+
+.banner-content .banner-title {
+    margin-bottom: 20px;
+}
+
+.banner-content .banner-heading {
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-content > p{
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 18px;
+}
+
+.check-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: var(--gradient);
+    background-size: 200%;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.check-icon i {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 35px;
+    color: #fff;
+}
+
+
+.banner-content ul {
+    margin-bottom: 20px;
+}
+
+.banner-content ul li {
+    padding: 10px 5px 10px 0;
+}
+
+.banner-content ul li p {
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.banner-media {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.banner-img {
+    position: relative;
+    width: 570px;
+    margin: 0 0 0 50px;
+}
+
+.banner-img .front-img {
+    position: absolute;
+    /* height: 100%; */
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.4);
+    
+}
+
+.img-move {
+    animation: 4s move2 infinite linear;
+    transition: all .5s linear;
+}
+
+@keyframes move2 {
+    0% {
+      transform: rotate(2deg) translate(4px, 4px);
+      transform: rotate(2deg) translate(4px, 4px); 
+      }
+    50% {
+      transform: rotate(-2deg) translate(-4px, -4px);
+      transform: rotate(-2deg) translate(-4px, -4px); 
+      }
+    100% {
+      transform: rotate(2deg) translate(4px, 4px);
+      transform: rotate(2deg) translate(4px, 4px); 
+    }
+}
+

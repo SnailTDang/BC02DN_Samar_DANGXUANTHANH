@@ -1,0 +1,53 @@
+/*COUNTER*/
+
+.counter-number {
+    padding: 85px 0 50px 0;
+    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fffbf7;
+}
+
+.counter-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.counter-item {
+    text-align: center;
+}
+
+.counter-icon {
+    margin-bottom: 15px;
+}
+
+.counter-icon span {
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    background-image: var(--gradient);
+    background-size: 200%;
+}
+
+.counter-icon > span > i{
+    color: #fff;
+    font-size: 45px;
+}
+
+.icon-content h2 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 1;
+    margin-right: 5px;
+    color: var(--primary);
+}
+
+.counter-title {
+    color: #262626;
+    font-size: 18px;
+}

@@ -1,0 +1,123 @@
+/* FEATURES */
+
+.features {
+    padding-top: 115px;
+    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-content {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.features-header {
+    margin-bottom: 30px;
+}
+
+.features-media {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 15px;
+    /* margin-left: 50px; */
+}
+
+.features-header {
+    text-align: left;
+}
+
+.features-box-left {
+    margin: 0px 50px 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 0px 60px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    overflow: hidden; 
+
+}
+
+.features-box-right {
+    margin: 0px 0 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0px 60px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;  
+    overflow: hidden; 
+}
+
+.features-item {
+    position: relative;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    /* transition: all 0.5s linear; */
+    
+}
+
+/* .features-item:hover::after {
+    z-index: 2;
+    opacity: 1;
+    background-image: var(--gradient);
+    background-size: 200%;
+} */
+
+.features-item::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-image: var(--gradient);
+    background-size: 200%;
+    transition: all 0.5s linear;
+}
+
+
+
+.features-active::after {
+    opacity: 1;
+
+}
+
+
+.features-item a,
+.features-item h4,
+.features-item p {
+    transition: all .5s ease;
+}
+
+.features-icon {
+    width: 80px;
+    text-align: center;
+}
+
+.features-item a {
+    color: var(--primary);
+    font-size: 80px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.feature-text {
+    margin-left: 30px;
+}
+
+.feature-text h4 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.feature-text p {
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+.hover-active {
+    color: #fff!important;
+}
+
+
