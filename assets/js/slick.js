@@ -9,6 +9,5 @@ $('.slick-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     variableWidth: false,
-    cssEase: 'ease',
-    speed: 2000
+    speed: 2500
 });
