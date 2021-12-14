@@ -436,6 +436,7 @@
     :root {
       --primary: #f55f8d;
       --gradient: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+      --gradientX: linear-gradient(to right,#fa83a6 0,#facc95 51%,#f55f8d 100%);
       --gradientY: linear-gradient(to top,#f55f8d 0,#f8ae56 100%,#f55f8d 100%);
       --gradient-sec: linear-gradient(to right,#0e1b1f 0,#092933 51%,#0e1b1f 100%);
       /* --quote: url(../images/quotes-1.svg); */
@@ -451,6 +452,7 @@
       --rgba-primary-7: #f55f8db3;
       --rgba-primary-8: #f55f8dcc;
       --rgba-primary-9: #f55f8de6;
+      --rgba-primary-10: #f699b5e6;
   }
   
 

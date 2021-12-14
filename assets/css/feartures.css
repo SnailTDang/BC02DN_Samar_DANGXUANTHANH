@@ -51,20 +51,18 @@
     padding: 35px;
     display: flex;
     align-items: center;
+    background-color: #fff;
     /* transition: all 0.5s linear; */
     
 }
 
-/* .features-item:hover::after {
-    z-index: 2;
-    opacity: 1;
-    background-image: var(--gradient);
-    background-size: 200%;
-} */
+.features-link, .feature-text {
+    z-index: 1;
+}
 
 .features-item::after {
     content: "";
-    z-index: -1;
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;

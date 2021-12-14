@@ -12,6 +12,7 @@
 
 .slick-slider {
     margin: 0 -15px;
+    cursor: grab;
 }
 
 .blog-col {

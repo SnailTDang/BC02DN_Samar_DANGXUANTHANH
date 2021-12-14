@@ -1,0 +1,266 @@
+.footer {
+    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg4.png');
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: auto !important;
+    background-size: contain;
+    color: #fff9;
+    font-size: 15px;
+
+}
+
+.footer::before {
+    content: "";
+    background-image: url('https://samar.dexignzone.com/xhtml/images/pattern/pattern2.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e1b1f;
+    z-index: -1;
+}
+
+.main-footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+.footer-subscribe {
+    padding: 50px 60px;
+    background-color: #fff;
+    z-index: 99;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0px 30px 0 rgb(0 0 0 / 10%);
+    background-image: url('https://samar.dexignzone.com/xhtml/images/pattern/pattern3.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.subscribe-title {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.subscribe-form {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.subscribe-heading {
+    color: #000;
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%) !important
+}
+
+.input-email {
+    padding: 10px 20px;
+    line-height: 1.5;
+    display: block;
+    border-radius: 8px 0 0 8px !important;
+    flex: 1 1 auto;
+    width: 1%;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+}
+
+.input-email:focus, .input-email:hover {
+    border-color: var(--primary);
+}
+
+.form-btn {
+    border-radius: 0 8px 8px 0  !important;
+    border: none;
+    padding: 17px 33px;
+}
+
+.subscribe-form i {
+    font-size: 25px;
+}
+
+.main-footer-layout {
+    align-items: flex-start;
+}
+
+.main-footer-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+}
+
+.main-footer-item {
+    margin-bottom: 30px;
+}
+
+.footer-logo, .footer-title {
+    margin-bottom: 30px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.footer-title::after, .footer-title::before {
+    content: "";
+    height: 4px;
+    position: absolute;
+    background-image: var(--gradient);
+    background-size: 200%;
+    border-radius: 8px;
+}
+
+.footer-title::after {
+    width: 15px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-title::before {
+    width: 45px;
+    bottom: 0;
+    left: 20px;
+}
+
+.main-footer-col ul li {
+    position: relative;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    background-image: var(--gradient);
+    background-size: 200%;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-icon i {
+    line-height: 40px;
+    color: #fff;
+}
+
+.main-footer-col ul li a {
+    font-size: 15px;
+    color: #ffffff99;
+    transition: all .5s;
+    line-height: 20px;
+}
+
+.footer-link li i {
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.main-footer-col ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #1f343b;
+    padding: 10px 0;
+}
+
+.footer-bottom-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.footer-bottom-contact ul {
+    display: flex;
+    gap: 20px;
+}
+
+.copyright-text a {
+    color: var(--primary);
+}
+
+.footer-bottom-contact a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    transition: all 0.5s linear;
+    position: relative;
+    background-color: #fff9;
+
+}
+
+.footer-bottom-contact a:hover {
+    transform: scale(1.1);
+    background-image: var(--gradient);
+    background-size: 200%;
+}
+
+
+
+.footer-bottom-contact i{
+    color: #fff;
+    line-height: 30px;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+#scrolltop {
+    display: none;
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    background-color: var(--primary);
+    border-radius: 40px;
+    color: #fff;
+    transition: all 0.3s linear;
+    transform-origin: bottom;
+    opacity: 0.5;
+}
+
+#scrolltop i {
+    line-height: 50px;
+    transform-origin: center;
+    transition: all 0.3s linear;
+}
+
+#scrolltop:hover {
+    opacity: 1;
+    transform: scaleY(1.2);
+}
+
+#scrolltop:hover i {
+    font-size: 17px;
+    transform: translateY(-10px);
+}
