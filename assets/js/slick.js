@@ -23,5 +23,5 @@ $('.partner-slider').slick({
     slidesToShow: 6,
     slidesToScroll: 3,
     variableWidth: false,
-    speed: 2500
+    speed: 2000
 });
