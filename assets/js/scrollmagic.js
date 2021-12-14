@@ -10,7 +10,7 @@ for (var i=0; i<fadeUps.length; i++) { // create a scene for each element
                         offset: 50,												 // start a little later
                         triggerHook: 0.9,
                         duration: 0 ,
-                        reverse: true
+                        reverse: false
 
                     })
                     .setClassToggle(fadeUps[i], "visible") // add class toggle
@@ -23,7 +23,7 @@ for (var i=0; i<fadeZooms.length; i++) { // create a scene for each element
                         offset: 50,												 // start a little later
                         triggerHook: 0.9,
                         duration: 0 ,
-                        reverse: true
+                        reverse: false
 
                     })
                     .setClassToggle(fadeZooms[i], "visible") // add class toggle
@@ -36,7 +36,7 @@ for (var i=0; i<fadeFlyIn.length; i++) { // create a scene for each element
                         offset: 50,												 // start a little later
                         triggerHook: 0.9,
                         duration: 0 ,
-                        reverse: true
+                        reverse: false
 
                     })
                     .setClassToggle(fadeFlyIn[i], "visible") // add class toggle
