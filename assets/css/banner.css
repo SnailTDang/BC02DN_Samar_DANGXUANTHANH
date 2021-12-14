@@ -51,6 +51,7 @@
     font-size: 18px;
 }
 
+
 .check-icon {
     display: inline-block;
     width: 35px;
@@ -102,7 +103,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scale(1.4);
     
 }
 

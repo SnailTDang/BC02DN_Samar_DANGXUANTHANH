@@ -16,6 +16,7 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css"> -->
     <link rel="stylesheet" href="./assets/icon/flaticon/flaticon.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/scrollmagic.css">
     <link rel="stylesheet" href="./assets/css/lightGallery.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/banner.css">
@@ -196,16 +197,16 @@
                     </div>
                 </div>
         </header>
-        <section class="banner">
+        <section class="banner" id="banner">
             <div class="container banner-container">
                 <div class="banner-inner">
                     <div class="banner-layout content-layout">
                         <div class="banner-content">
-                            <h6 class="banner-title title">We are The Best</h6>
-                            <h1 class="banner-heading">Freelance Product Designer Running</h1>
-                            <p>We develop the relationships that underpin the next phase in your <br> organisation's
+                            <h6 class="banner-title title fadeUp">We are The Best</h6>
+                            <h1 class="banner-heading fadeUp">Freelance Product Designer Running</h1>
+                            <p class="banner-text fadeUp">We develop the relationships that underpin the next phase in your <br> organisation's
                                 growth.</p>
-                            <ul>
+                            <ul class="banner-ul fadeUp">
                                 <li>
                                     <span class="check-icon"><i class="fa fa-check"></i></span>
                                     <p>Master's degree in designing</p>
@@ -215,13 +216,15 @@
                                     <p>Outstanding mobile design</p>
                                 </li>
                             </ul>
-                            <a href="#" class="btn banner-btn">GET STARTED</a>
+                            <div class="banner-button fadeUp">
+                                <a href="#" class="btn banner-btn">GET STARTED</a>
+                            </div>
                         </div>
                         <div class="banner-media">
                             <div class="banner-img">
                                 <img src="https://samar.dexignzone.com/xhtml/images/main-slider/slider2/pic3.png" alt=""
-                                    class="back-img">
-                                <div class="front-img">
+                                    class="back-img fadeUp">
+                                <div class="front-img fadeZoom">
                                     <img src="https://samar.dexignzone.com/xhtml/images/main-slider/slider2/pic1.png"
                                         alt="" class="img-move">
                                 </div>
@@ -271,15 +274,15 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container about-container">
                 <div class="about-layout content-layout">
-                    <div class="about-media">
+                    <div class="about-media fadeFlyIn">
                         <div class="about-img">
                             <img src="https://samar.dexignzone.com/xhtml/images/about/pic1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="about-content">
+                    <div class="about-content fadeFlyIn">
                         <div class="section-header about-header">
                             <h6 class="title section-title">About Us</h6>
                             <h2 class="heading-sec">Build Your Business Website Better</h2>
@@ -311,7 +314,7 @@
                 </div>
             </div>
         </section>
-        <section class="counter-number">
+        <section class="counter-number" id="counter-number">
             <div class="container counter-container">
                 <div class="content-layout counter-layout">
                     <div class="counter-col">
@@ -381,16 +384,16 @@
                 </div>
             </div>
         </section>
-        <section class="features">
+        <section class="features" id="features">
             <div class="container feartures-container">
                 <div class="content-layout features-layout">
                     <div class="features-content">
-                        <div class="section-header features-header">
+                        <div class="section-header features-header fadeFlyIn">
                             <h6 class="title section-title">Our Features</h6>
                             <h2 class="heading-sec">Behind The Story Of Samar Agency</h2>
                         </div>
                         <div class="features-box">
-                            <div class="features-box-left">
+                            <div class="features-box-left fadeFlyIn">
                                 <!-- <div class="features-active"></div> -->
                                 <div class="features-item">
                                     <a href="#" class="features-link">
@@ -405,7 +408,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="features-box-right">
+                            <div class="features-box-right fadeFlyIn">
                                 <!-- <div class="features-active"></div> -->
                                 <div class="features-item">
                                     <a href="#" class="features-link">
@@ -420,7 +423,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="features-box-left">
+                            <div class="features-box-left fadeFlyIn">
                                 <!-- <div class="features-active"></div> -->
                                 <div class="features-item">
                                     <a href="#" class="features-link">
@@ -452,7 +455,7 @@
                     <h2 class="heading-sec">Our Digital Services</h2>
                 </div>
                 <div class="content-layout portfolio-layout" id="animated-thumbnails">
-                    <div class="portfolio-left">
+                    <div class="portfolio-left fadeUp">
                         <div class="portfolio-item">
                             <div class="img-overlay">
                                 <img src="https://samar.dexignzone.com/xhtml/images/projects/project-2/pic1.jpg" alt="">
@@ -469,7 +472,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-right">
+                    <div class="portfolio-right fadeUp">
                         <div class="portfolio-item">
                             <div class="img-overlay">
                                 <img src="https://samar.dexignzone.com/xhtml/images/projects/project-2/pic2.jpg" alt="">
@@ -486,7 +489,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-left">
+                    <div class="portfolio-left fadeUp">
                         <div class="portfolio-left-layout">
                             <div class="portfolio-item left-item-col">
                                 <div class="img-overlay">
@@ -538,7 +541,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-right">
+                    <div class="portfolio-right fadeUp">
                         <div class="portfolio-item">
                             <div class="img-overlay">
                                 <img src="https://samar.dexignzone.com/xhtml/images/projects/project-2/pic6.jpg" alt="">
@@ -569,7 +572,7 @@
                     <span class="yearly">Yearly</span>
                 </div>
                 <div class="content-layout plan-layout">
-                    <div class="plan-col">
+                    <div class="plan-col fadeUp plan-delay1">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h3 class="plan-heading">Basic Plan</h3>
@@ -610,7 +613,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="plan-col">
+                    <div class="plan-col fadeUp plan-delay2">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h3 class="plan-heading">Standart Plan</h3>
@@ -651,7 +654,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="plan-col">
+                    <div class="plan-col fadeUp plan-delay3">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h3 class="plan-heading">Premium Plan</h3>
@@ -974,7 +977,7 @@
         </section>
         <footer class="footer">
             <div class="container footer-container">
-                <div class="footer-subscribe">
+                <div class="footer-subscribe fadeUp">
                     <div class="subscribe-content">
                         <div class="content-layout subscribe-layout">
                             <div class="subscribe-title">
@@ -1120,6 +1123,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://samar.dexignzone.com/xhtml/vendor/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="./assets/js/header.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/lightgallery.min.js"></script>
@@ -1128,6 +1133,7 @@
     <script src="./assets/js/planhover.js"></script>
     <script src="./assets/js/swiper.js"></script>
     <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/scrollmagic.js"></script>
 
 </body>
 
