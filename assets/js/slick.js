@@ -19,7 +19,7 @@ $('.slick-slider').slick({
           },
         },
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -46,17 +46,23 @@ $('.partner-slider').slick({
           settings: {
             slidesToShow: 5,
             slidesToScroll: 3,
-          },
+          }
+        },
+        {
           breakpoint: 1200,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 2,
-          },
+          }
+        },
+        {
           breakpoint: 768,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
           },
+        },
+        {
           breakpoint: 541,
           settings: {
             slidesToShow: 2,
