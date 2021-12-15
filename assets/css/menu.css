@@ -179,17 +179,17 @@
 
 .mobile-menu {
     display: none;
-    height: 50px;
-    width: 50px;
+    height: 42px;
+    width: 42px;
     margin-left: 20px
     border-radius: 50%;
     text-align: center;
-    background-color: var(--primary);
 }
 
 .mobile-menu span{
     font-size: 30px;
     color: #000;
+    line-height: 42px;
 
 }
 
