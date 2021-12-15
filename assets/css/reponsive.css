@@ -1,0 +1,312 @@
+@media screen and (max-width: 1536px) {
+    .banner-img {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner-content {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .banner-media {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .banner-content .banner-heading {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1441) {
+    .container {
+        max-width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .navbar .item-link {
+        padding: 35px 12px;
+    }
+
+    .item-link-scroll {
+        padding: 35px 12px!important;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .banner-content .banner-heading {
+        font-size: 45px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .banner-content ul li {
+        padding: 5px 0;
+    }
+
+    .banner-content ul li p {
+        font-size: 16px;
+    }
+
+    .banner-img {
+        max-width: 400px;
+    }
+
+    .item-content h4 {
+        font-size: 20px;
+    }
+
+    .heading-sec {
+        font-size: 40px;
+    }
+
+    .about-img {
+        margin: 20px 20px 20px 0;
+    }
+
+    .icon-content h2 {
+        font-size: 50px;
+    }
+
+    .counter-title {
+        font-size: 16px;
+    }
+
+    .plan-item {
+        padding: 30px;
+    }
+
+    .plan-title h3 {
+        font-size: 24px;
+    }
+
+    .footer-subscribe {
+        padding: 40px;
+    }
+
+    .subscribe-heading {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    form {
+        height: 42px;
+    }
+
+    .subscribe-form i {
+        font-size: 20px;
+    }
+
+    .main-footer-col:first-child {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .main-footer-col:nth-child(2) {
+        flex: 0 0 16.6666667%;
+        max-width: 16.6666667%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .main-header {
+        height: 90px;
+    }
+   .container {
+       max-width: 720px;
+   } 
+
+   .navbar {
+       display: none;
+   }
+
+   .banner-inner {
+    padding-top: 140px;
+    }   
+
+   .banner-content {
+       flex: 0 0 100%;
+       max-width: 100%;
+       margin: 0 0 30px 0;
+   }
+
+   .banner-media {
+        flex: 0 0 100%;
+        max-width: 100%;
+   }
+
+   .banner-img {
+       max-width: 100%;
+       margin: 0 auto;
+   }
+
+   .services-item {
+       flex: 0 0 50%;
+       max-width: calc(50% - 30px);
+   }
+
+   .about-media {
+       flex: 0 0 100%;
+       max-width: 100%;
+       padding-left: 15px;
+   }
+
+   .about-img {
+        width: 100%;
+        margin: 0 0 30px 0;
+   }
+
+   .about-content {
+        flex: 0 0 100%;
+        max-width: 100%;  
+   }
+
+   .counter-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+   }
+
+   .features-content {
+        flex: 0 0 100%;
+        max-width: 100%; 
+   }
+
+   .features-media {
+        display: none;
+   }
+
+   .portfolio-left {
+        flex: 0 0 100%;
+        max-width: 100%;
+   }
+
+   .portfolio-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .plan-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-title {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .subscribe-form {
+        flex: 0 0 100%;
+        max-width: 100%; 
+        margin-top: 30px;
+    }
+
+    .main-footer-col {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-inner {
+        padding-top: 120px;
+    }
+
+    .container {
+        max-width: 540px;
+    } 
+    .banner-img {
+        max-width: 80%;
+    }
+
+    .services-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .plan-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .main-header {
+        height: 75px;
+    }
+
+    .banner-content .banner-heading {
+        font-size: 32px;
+    }
+
+    .header-logo {
+        width: 130px;
+    }
+    
+    .main-footer-col {
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+        margin-bottom: 30px;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .heading-sec {
+        font-size: 32px;
+    }
+
+    .check-icon-about {
+        min-width: 24px;
+    }
+
+    .features-box-left {
+        margin-right: 0;
+    }
+
+    .features-box-right {
+        margin-left: 0;
+    }
+
+    .features-item {
+        padding: 20px;
+    }
+    .feature-text h4 {
+        font-size:  20px;
+    }
+
+    .footer-bottom-col {
+        flex: 0 0 100%!important;
+        max-width: 100%!important; 
+        margin-bottom: 20px;
+    }
+    .subscribe-heading {
+        font-size: 24px;
+    }
+    .footer-subscribe {
+        padding: 20px;
+    }
+
+
+}
+
+

@@ -80,6 +80,7 @@
 .about-content ul li {
     display: flex;
     padding: 10px 0;
+    align-items: center;
 }
 
 .about-content ul li p {

@@ -71,6 +71,8 @@
 
 .menubutton {
     margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .btn {
@@ -173,5 +175,20 @@
     font-size: 16px;
     opacity: 1;
     margin-top: 4px;
+}
+
+.mobile-menu {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--primary);
+}
+
+.mobile-menu span{
+    font-size: 30px;
+    color: #000;
+
 }
 
