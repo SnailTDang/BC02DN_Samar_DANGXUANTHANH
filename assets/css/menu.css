@@ -87,10 +87,6 @@
     display: inline-block;
 }
 
-.mobile-menu {
-    display: none;
-}
-
 .btn:hover {
     background-position: right center;
 }
@@ -182,7 +178,7 @@
 }
 
 .mobile-menu {
-    display: inline-block;
+    display: none;
     height: 50px;
     width: 50px;
     border-radius: 50%;
