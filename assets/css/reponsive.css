@@ -129,6 +129,11 @@
     .main-header {
         height: 90px;
     }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
    .container {
        max-width: 720px;
    } 
