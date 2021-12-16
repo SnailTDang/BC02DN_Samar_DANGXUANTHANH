@@ -198,7 +198,7 @@
     margin-left: 20px;
     border-radius: 50%;
     text-align: center;
-    z-index: 9999;
+    z-index: 10000;
 }
 
 .mobile-menu span{
