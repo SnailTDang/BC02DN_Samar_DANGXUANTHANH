@@ -193,6 +193,7 @@
    .sub-menu {
        position: unset;
        display: none;
+       border-bottom: 1px solid #ccc;
    }
 
    .menu-item:hover .sub-menu {
