@@ -348,6 +348,10 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .blog-info ul li  {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 540px) {
