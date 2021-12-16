@@ -212,12 +212,31 @@
    }
 
    .navbar .item-link {
-       padding: 15px 0px;
-       border-bottom: 1px solid #ccc;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        padding: 8px 0px;
+        border-bottom: 1px solid #ccc;
    }
 
    .item-link-scroll {
        padding: 15px 0px!important;
+   }
+
+   .item-link i {
+        display: inline-block;
+        font-size: 14px;
+        padding: 10px;
+        background-color: var(--primary);
+        color: #fff;
+   }
+
+   .item-link i::before {
+        content: "\f105";   
+   }
+
+   .menu-item:hover .item-link > i::before {
+        content: "\f107";
    }
 
    .banner-inner {
