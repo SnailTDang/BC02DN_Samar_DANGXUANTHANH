@@ -155,7 +155,7 @@
    }
 
    .navbar {
-       width: 200px;
+       width: 260px;
         display: block;
        background-color: #fff;
        height: 100vh;
@@ -208,7 +208,7 @@
    .header-logo-mobile {
        display: block;
        padding: 15px;
-       width: 200px;
+       width: 160px;
    }
 
    .navbar .item-link {
