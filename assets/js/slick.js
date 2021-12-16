@@ -56,7 +56,7 @@ $('.partner-slider').slick({
           }
         },
         {
-          breakpoint: 768,
+          breakpoint: 769,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
