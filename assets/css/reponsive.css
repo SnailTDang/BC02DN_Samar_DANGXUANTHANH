@@ -132,7 +132,9 @@
     }
     
     .mobile-menu {
-        display: block;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     
    .container {
