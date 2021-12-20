@@ -31,6 +31,24 @@
     margin-bottom: 30px;
     overflow: hidden;
 }
+
+.img-overlay::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #fff0 0%, #ffffff4d 100%);
+    transform: skewX(-25deg);
+}
+
+.img-overlay:hover::before {
+    animation: shine 0.75s;
+}
+
 .portfolio-left-layout {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +161,13 @@
     -webkit-transition: all 1s;
     -ms-transition: all 1s;
     transition: all 1s;
+}
+
+
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
 }
 
 

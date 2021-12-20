@@ -234,10 +234,11 @@ form {
     position: fixed;
     bottom: 20px;
     right: 50px;
+    display: none;
+
 }
 
 #scrolltop {
-    display: none;
     height: 50px;
     width: 30px;
     text-align: center;

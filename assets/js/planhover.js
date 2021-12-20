@@ -10,6 +10,3 @@ $(document).ready(function () {
         $(this).find('.text-active, .heading-active, .icon-active').addClass('hover-active')
     });
 });
-
-
-
