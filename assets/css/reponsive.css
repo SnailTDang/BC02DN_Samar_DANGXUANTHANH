@@ -155,16 +155,16 @@
    }
 
    .navbar {
-       width: 260px;
+       width: 50px;
         display: block;
        background-color: #fff;
        height: 100vh;
        position: relative;
-       transform: translateX(-100%);
-       transition: all 0.5s linear;
+       transform: translateX(-200%);
+       transition: all 0.4s linear;
        padding: 0 20px;
        overflow-y: scroll;
-
+       transform-origin: left;
    }
 
    .menu-item {
@@ -192,6 +192,7 @@
 
    .menufly {
         transform: none;
+        width: 260px;
    }
 
    .sub-menu {
