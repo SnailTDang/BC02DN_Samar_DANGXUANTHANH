@@ -9,10 +9,8 @@ const mobileItems = document.querySelectorAll('.menu-item');
 
 mobileItems.forEach(item => {
     item.addEventListener('click', function(e){
-        console.log(e)
-        console.log(this)
+
         this.querySelector('.sub-menu').classList.toggle('sub-menu-open');
-        console.log(this.querySelector('a').querySelector('i'))
         this.querySelector('a').querySelector('i').classList.toggle('fa-angle-right');
         this.querySelector('a').querySelector('i').classList.toggle('fa-angle-down');
     })
