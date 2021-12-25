@@ -23,8 +23,13 @@ function closeMenu() {
     menumodal.classList.remove('menu-active');
 }
 
+mobilemenu.addEventListener('click', function(e) {
+    e.stopPropagation();
+})
+
 openmenu.addEventListener('click', openMenu);
 closenmenu.addEventListener('click', closeMenu);
+menumodal.addEventListener('click',closeMenu)
 
 
 function scrollFunction () {
