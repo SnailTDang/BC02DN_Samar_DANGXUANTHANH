@@ -1,57 +1,59 @@
-
 /* SERVICES */
 
 .services {
-    padding-top: 115px;
-    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg2.png');
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+  padding-top: 115px;
+  background-image: url("https://samar.dexignzone.com/xhtml/images/background/bg2.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .section-header {
-    text-align: center;
+  text-align: center;
 }
 
 .services-header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .heading-sec {
-    font-size: 60px;
-    line-height: 1.2;
-    font-weight: 800;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 800;
 }
 
-
 .services-item {
-    flex: 0 0 33.3333333%;
-    margin: 0 15px 30px;
-    padding: 30px;
-    background-color: #fff;
-    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
-    transition: all .5s linear;
-    max-width: calc(33.33333333% - 30px);
+  flex: 0 0 33.3333333%;
+  max-width: 33.33333333%;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  transition: all 0.5s linear;
+}
+
+.services-content {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
 }
 
 .services-item:hover {
-    transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 .item-img {
-    text-align: center;
-    margin-bottom: 25px
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .item-img img {
-    width: 215px;
+  width: 215px;
 }
 
 .item-content {
-    text-align: center;
+  text-align: center;
 }
 
 .item-content h4 {
-    font-size: 25px;
-    margin-bottom: 15px;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
