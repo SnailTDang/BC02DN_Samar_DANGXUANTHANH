@@ -5,34 +5,10 @@ const openmenu = document.querySelector('.mobile-open');
 const closenmenu = document.querySelector('.mobile-close');
 const menumodal = document.querySelector('.header-nav');
 const mobilemenu = document.querySelector('.navbar');
+const mobileItems = document.querySelectorAll('.meunu-item')
 
 
-window.onscroll = function() {scrollFunction()};
-
-function openMenu() {
-    openmenu.style.display = 'none';
-    closenmenu.style.display = 'block';
-    menumodal.classList.add('menu-active');
-    mobilemenu.classList.add('menufly');
-}
-
-function closeMenu() {
-    openmenu.style.display = 'block';
-    closenmenu.style.display = 'none';
-    mobilemenu.classList.remove('menufly');
-    menumodal.classList.remove('menu-active');
-}
-
-mobilemenu.addEventListener('click', function(e) {
-    e.stopPropagation();
-})
-
-openmenu.addEventListener('click', openMenu);
-closenmenu.addEventListener('click', closeMenu);
-menumodal.addEventListener('click',closeMenu)
-
-
-function scrollFunction () {
+window.addEventListener('scroll', function() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         header.classList.add('whitebg');
         topbutton.style.display = "block";
@@ -48,5 +24,29 @@ function scrollFunction () {
             menuitem.classList.remove('item-link-scroll');
         }
     }
+});
+
+function openMenu() {
+    openmenu.style.display = 'none';
+    closenmenu.style.display = 'block';
+    menumodal.classList.toggle('menu-active');
+    mobilemenu.classList.toggle('menufly');
 }
+
+function closeMenu() {
+    openmenu.style.display = 'block';
+    closenmenu.style.display = 'none';
+    mobilemenu.classList.toggle('menufly');
+    menumodal.classList.toggle('menu-active');
+}
+
+mobilemenu.addEventListener('click', function(e) {
+    e.stopPropagation();
+})
+
+openmenu.addEventListener('click', openMenu);
+closenmenu.addEventListener('click', closeMenu);
+menumodal.addEventListener('click',closeMenu);
+
+
 
