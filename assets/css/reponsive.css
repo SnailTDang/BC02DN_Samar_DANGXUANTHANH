@@ -195,15 +195,18 @@
    }
 
    .sub-menu {
+    visibility: visible;
+        opacity: 1;
        position: unset;
        display: none;
        border-bottom: 1px solid #ccc;
+       margin-top: 0;
    }
 
-   .menu-item:hover .sub-menu {
-       display: block;
+    .sub-menu-open {
+       display: block!important;
        box-shadow: none;
-   }
+   } 
 
    .header-logo-mobile {
        display: block;
@@ -226,19 +229,16 @@
    .item-link i {
         display: inline-block;
         font-size: 14px;
+        width: 34px;
         padding: 10px;
+        text-align: center;
         background-color: var(--primary);
         color: #fff;
    }
 
-   .item-link i::before {
-        content: "\f105";   
-   }
-
-   .menu-item:hover .item-link > i::before {
-        content: "\f107";
-   }
-
+   /* .item-link .fa-angle-down {
+       display: none;
+   } */
 
    .banner-inner {
     padding-top: 140px;
