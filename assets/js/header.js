@@ -38,6 +38,10 @@ function closeMenu() {
   menumodal.classList.toggle("menu-active");
 }
 
+openmenu.addEventListener("click", openMenu);
+closenmenu.addEventListener("click", closeMenu);
+menumodal.addEventListener("click", closeMenu);
+
 window.addEventListener("scroll", function () {
   if (
     document.body.scrollTop > 100 ||
@@ -56,7 +60,3 @@ window.addEventListener("scroll", function () {
     }
   }
 });
-
-openmenu.addEventListener("click", openMenu);
-closenmenu.addEventListener("click", closeMenu);
-menumodal.addEventListener("click", closeMenu);
