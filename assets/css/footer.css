@@ -235,7 +235,7 @@ form {
     bottom: 20px;
     right: 50px;
     display: none;
-
+    z-index: 9999;
 }
 
 #scrolltop {
