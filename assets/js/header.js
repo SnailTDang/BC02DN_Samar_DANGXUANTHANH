@@ -6,15 +6,16 @@ const closenmenu = document.querySelector(".mobile-close");
 const menumodal = document.querySelector(".header-nav");
 const mobilemenu = document.querySelector(".navbar");
 const mobileItems = document.querySelectorAll(".menu-item");
+const subMenus = document.querySelectorAll(".sub-menu__content");
 const screenWidth = document.body.clientWidth;
 
 mobileItems.forEach((item) => {
   let itemMobile = item.querySelector("a");
   if (screenWidth < 992) {
-    console.log(screenWidth);
-    itemMobile.addEventListener("click", function (e) {
-      e.preventDefault();
-    });
+    // console.log(screenWidth);
+    // itemMobile.addEventListener("click", function (e) {
+    //   e.preventDefault();
+    // });
     item.addEventListener("click", function (e) {
       this.querySelector(".sub-menu").classList.toggle("sub-menu-open");
       itemMobile.querySelector("i").classList.toggle("fa-angle-right");
@@ -25,6 +26,12 @@ mobileItems.forEach((item) => {
 
 mobilemenu.addEventListener("click", function (e) {
   e.stopPropagation();
+});
+
+subMenus.forEach((e) => {
+  e.addEventListener("click", function (e) {
+    e.stopPropagation();
+  });
 });
 
 function openMenu() {
