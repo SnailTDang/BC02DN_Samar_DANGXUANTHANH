@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./assets/css/blog.css">
     <link rel="stylesheet" href="./assets/css/partner.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/reponsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -1195,6 +1196,42 @@
             <a href="#" id="scrolltop" style="display: block;"><i class="fa fa-arrow-up"></i></a>
         </div>
     </div>
+    <div class="formmessenger js-mess">
+        <div class="name-mess js-closemess">
+          <a href="javascript:void(0);" class="logo-mess">
+            <img src="./assets/img/logo-2.png" alt="" class="img-mess-logo" />
+          </a>
+          <div class="icon-mess">
+            <a href="#" class="icon fas fa-phone"></a>
+            <i class="fas fa-minus icon js-closemess"></i>
+          </div>
+        </div>
+        <div class="text-mess">
+          <div id="messages"></div>
+        </div>
+        <form action="javascript:void(0);">
+          <div class="mess-submit">
+            <div class="form-group">
+              <textarea
+                id="mess-input"
+                class="form-control"
+                rows="1"
+                placeholder="Enter your questions!"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              id="form-submit"
+              class="btn btn-success btn-lg pull-right"
+            >
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="messenger-icon js-openmess js-hidenmess js-hiden">
+        <i class="far fa-comments"></i>
+      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -1217,6 +1254,7 @@
     <script src="./assets/js/swiper.js"></script>
     <script src="./assets/js/slick.js"></script>
     <script src="./assets/js/scrollmagic.js"></script>
+    <script src="./assets/js/mess.js"></script>
 
 </body>
 

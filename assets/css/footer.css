@@ -1,5 +1,5 @@
 .footer {
-    background-image: url('https://samar.dexignzone.com/xhtml/images/background/bg4.png');
+    background-image: url("https://samar.dexignzone.com/xhtml/images/background/bg4.png");
     display: block;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,12 +8,11 @@
     background-size: contain;
     color: #fff9;
     font-size: 15px;
-
 }
 
 .footer::before {
     content: "";
-    background-image: url('https://samar.dexignzone.com/xhtml/images/pattern/pattern2.png');
+    background-image: url("https://samar.dexignzone.com/xhtml/images/pattern/pattern2.png");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -31,7 +30,6 @@
     padding-bottom: 30px;
 }
 
-
 .footer-subscribe {
     padding: 50px 60px;
     background-color: #fff;
@@ -39,7 +37,7 @@
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0px 30px 0 rgb(0 0 0 / 10%);
-    background-image: url('https://samar.dexignzone.com/xhtml/images/pattern/pattern3.png');
+    background-image: url("https://samar.dexignzone.com/xhtml/images/pattern/pattern3.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -64,7 +62,7 @@
 
 form {
     display: flex;
-    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%) !important
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%) !important;
 }
 
 .input-email {
@@ -83,12 +81,13 @@ form {
     background: #fff;
 }
 
-.input-email:focus, .input-email:hover {
+.input-email:focus,
+.input-email:hover {
     border-color: var(--primary);
 }
 
 .form-btn {
-    border-radius: 0 8px 8px 0  !important;
+    border-radius: 0 8px 8px 0 !important;
     border: none;
     padding: 17px 33px;
 }
@@ -111,7 +110,8 @@ form {
     margin-bottom: 30px;
 }
 
-.footer-logo, .footer-title {
+.footer-logo,
+.footer-title {
     margin-bottom: 30px;
 }
 
@@ -125,7 +125,8 @@ form {
     line-height: 1.2;
 }
 
-.footer-title::after, .footer-title::before {
+.footer-title::after,
+.footer-title::before {
     content: "";
     height: 4px;
     position: absolute;
@@ -172,7 +173,7 @@ form {
 .main-footer-col ul li a {
     font-size: 15px;
     color: #ffffff99;
-    transition: all .5s;
+    transition: all 0.5s;
     line-height: 20px;
 }
 
@@ -214,7 +215,6 @@ form {
     transition: all 0.5s linear;
     position: relative;
     background-color: #fff9;
-
 }
 
 .footer-bottom-contact a:hover {
@@ -223,17 +223,15 @@ form {
     background-size: 200%;
 }
 
-
-
-.footer-bottom-contact i{
+.footer-bottom-contact i {
     color: #fff;
     line-height: 30px;
 }
 
 .scrolltop {
     position: fixed;
-    bottom: 20px;
-    right: 50px;
+    bottom: 70px;
+    right: 10px;
     display: none;
     z-index: 9999;
 }

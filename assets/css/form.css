@@ -1,0 +1,268 @@
+.formmessenger {
+    width: 450px;
+    transform: translateX(120%);
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    z-index: 999;
+    /* background-image: linear-gradient(to top, #59b4ff 0%, #68e0cf 100%); */
+    background-image: var(--gradientX2);
+    /* background-size: 200%; */
+    transition: all;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px 5px #a1a1a1;
+}
+.name-mess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0px 15px 10px -15px #a1a1a1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+.logo-mess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.img-mess-logo {
+    display: block;
+    width: 80%;
+}
+.name-page {
+    color: white;
+    display: inline;
+    margin-left: 5px;
+}
+.icon-mess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.icon {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.name-mess .fa-minus {
+    margin-right: 10px;
+    padding: 10px;
+}
+.fa-phone {
+    padding: 10px;
+}
+.icon:hover {
+    border-radius: 50%;
+    background-color: #7e7e7e;
+}
+#messages {
+    list-style: none;
+    color: white;
+    padding-bottom: 10px;
+    z-index: -1;
+}
+.text-mess {
+    height: 420px;
+    width: 100%;
+    border-top: solid 1px #cecece;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.text-mess::-webkit-scrollbar {
+    width: 8px;
+}
+.text-mess::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 50rem;
+}
+.text-mess::-webkit-scrollbar-track {
+    background-color: #f1f1f100;
+}
+#messages > .mess-text {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 5px;
+}
+.messtext {
+    position: relative;
+    max-width: 70%;
+    display: block;
+    padding: 12px;
+}
+
+.messtext p {
+    word-break: break-word;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.mess-server {
+    border-radius: 0.7rem 0.7rem 0.7rem 0;
+    background-color: #f5f5f5;
+    color: #050505;
+}
+.name {
+    position: absolute;
+    top: -15px;
+    font-size: 12px;
+    line-height: 1.3;
+    width: fit-content;
+}
+.name-client {
+    right: 10px;
+}
+.name-server {
+    left: 10px;
+}
+.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.client {
+    flex-direction: row-reverse;
+    flex-grow: 20px;
+}
+.space {
+    flex-grow: 1;
+}
+
+.server {
+    flex-grow: 1;
+}
+.mess-client {
+    color: #ffff !important;
+    border-radius: 0.7rem 0.7rem 0 0.7rem;
+    background-image: linear-gradient(
+        -15deg,
+        #22e1ff 0%,
+        #1d8fe1 48%,
+        #7e7bc7 100%
+    );
+}
+.form-group {
+    display: block;
+    width: 100%;
+}
+
+.form-control {
+    display: block;
+    place-content: #ffff;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+    overflow: auto;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    min-height: 70px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.btn-success {
+    border-radius: 50%;
+}
+
+.mess-submit {
+    min-width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+}
+#form-submit {
+    border: none;
+    margin-right: 5px;
+    height: 60px;
+    padding: 15px;
+    background-image: radial-gradient(rgb(95, 217, 248), rgb(46, 133, 214));
+}
+
+.fas {
+    color: #ffff;
+}
+.openmess {
+    transform: translateX(0%);
+    animation: MenuFadeIn linear 0.3s;
+}
+
+.closemess {
+    transform: translateX(120%);
+    animation: MenuFadeOut linear 0.3s;
+}
+
+@keyframes MenuFadeIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes MenuFadeOut {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(120%);
+    }
+}
+
+.messenger-icon {
+    border: 2px solid;
+    cursor: pointer;
+    position: fixed;
+    bottom: 60%;
+    right: 20px;
+    display: block;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    transition: linear 0.2s 0.1s;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    z-index: 999;
+    animation: 2.5s messBoxShadow infinite;
+}
+
+@keyframes messBoxShadow {
+    0% {
+        box-shadow: 0 0 0 0 #044672d9;
+    }
+    50% {
+        box-shadow: 0 0 0 18px #29a6f900;
+    }
+    100% {
+        box-shadow: 0 0 0 0 #29a6f900;
+    }
+}
+.fas,
+.far {
+    font-size: 30px;
+}
+.hiden {
+    transform: scale(0);
+}
